@@ -21,14 +21,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Damage")
 	float DamageTimeInSeconds;
 
-	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Transient , Category="Damage")
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Transient , Category="Damage")
 	float DamagePerSecond;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FString CharacterName;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	bool bAttackable;
 
 	
 protected:
@@ -39,13 +34,14 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-// 모두에게 보여주는 것
-public:
+	void FunctionName();
 
-// 클래스를 상속받은 자식 클래스 에게만 보여주는 것
-protected:
+	UFUNCTION(BlueprintCallable, Category = "Damage")
+	void CalculateDPS();
 
-// 외부에는 보여주지 않고 클래스 내부에만 사용
-private:
+	virtual void PostInitProperties() override;
+
+	virtual void PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent) override;
+
 	
 };

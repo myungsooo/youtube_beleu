@@ -4,7 +4,7 @@
 #include "MyActor.h"
 
 // Sets default values
-AMyActor::AMyActor() : TotalDamage(200), DamageTimeInSeconds(1.0f), CharacterName(TEXT("베르")), bAttackable(true) // 방법 1
+AMyActor::AMyActor() 
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
@@ -12,8 +12,6 @@ AMyActor::AMyActor() : TotalDamage(200), DamageTimeInSeconds(1.0f), CharacterNam
 	// 방법 2
 	TotalDamage = 200;
 	DamageTimeInSeconds = 1.0f;
-	CharacterName = TEXT("베르");
-	bAttackable = true;
 }
 
 // Called when the game starts or when spawned
@@ -28,5 +26,28 @@ void AMyActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	
+}
+
+void AMyActor::FunctionName()
+{
+	// 동작할 코드 작성
+	
+}
+
+void AMyActor::CalculateDPS()
+{
+	DamagePerSecond = TotalDamage / DamageTimeInSeconds;
+}
+
+void AMyActor::PostInitProperties()
+{
+	Super::PostInitProperties();
+	CalculateDPS();
+}
+
+void AMyActor::PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent)
+{
+	CalculateDPS();
+	Super::PostEditChangeProperty(PropertyChangedEvent);
 }
 
