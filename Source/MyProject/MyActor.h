@@ -15,25 +15,21 @@ public:
 	// Sets default values for this actor's properties
 	AMyActor();
 
-	UPROPERTY()
-	int32 IntVariable;
-
-	int8 i8; // 127 ~ -128
-	int16 i16; // 32,767 ~ -32,768
-	int32 i32; // 214,648,647 ~ -214,648,648
-	int64 i64; // 9,223,372,036,854,775,807 ~ -9,223,372,036,854,775,808
-
-	uint8 ui8; // 0 ~255
-	uint16 ui16; // 0 ~ 65,535
-	uint32 ui32; // 0 ~ 4,294,967,295
-	uint64 ui64; // 0 ~ 18,446,744,073,709,551,615
- 
-	float f; // 보통
-	double d; // 정밀한 표현을 할때만 사용
-
-	FString str;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Damage")
+	int32 TotalDamage;
 	
-	bool b;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Damage")
+	float DamageTimeInSeconds;
+
+	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Transient , Category="Damage")
+	float DamagePerSecond;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FString CharacterName;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool bAttackable;
+
 	
 protected:
 	// Called when the game starts or when spawned
@@ -43,4 +39,13 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+// 모두에게 보여주는 것
+public:
+
+// 클래스를 상속받은 자식 클래스 에게만 보여주는 것
+protected:
+
+// 외부에는 보여주지 않고 클래스 내부에만 사용
+private:
+	
 };

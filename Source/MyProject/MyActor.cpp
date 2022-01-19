@@ -4,19 +4,22 @@
 #include "MyActor.h"
 
 // Sets default values
-AMyActor::AMyActor()
+AMyActor::AMyActor() : TotalDamage(200), DamageTimeInSeconds(1.0f), CharacterName(TEXT("베르")), bAttackable(true) // 방법 1
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	UE_LOG(LogTemp, Log, TEXT("Constructor"));
 
+	// 방법 2
+	TotalDamage = 200;
+	DamageTimeInSeconds = 1.0f;
+	CharacterName = TEXT("베르");
+	bAttackable = true;
 }
 
 // Called when the game starts or when spawned
 void AMyActor::BeginPlay()
 {
 	Super::BeginPlay();
-	UE_LOG(LogTemp, Log, TEXT("BeginPlay"));
 	
 }
 
@@ -24,7 +27,6 @@ void AMyActor::BeginPlay()
 void AMyActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	UE_LOG(LogTemp, Log, TEXT("Tick"));
 	
 }
 
