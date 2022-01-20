@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MyProject",
+			"Path": "/Users/song/soo/youtube_beleu/Source/MyProject.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MyProjectEditor",
+			"Path": "/Users/song/soo/youtube_beleu/Source/MyProjectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

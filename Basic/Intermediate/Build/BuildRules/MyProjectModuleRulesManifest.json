@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"/Users/song/soo/youtube_beleu/Source/MyProject/MyProject.Build.cs",
+		"/Users/song/soo/youtube_beleu/Source/MyProject.Target.cs",
+		"/Users/song/soo/youtube_beleu/Source/MyProjectEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}
