@@ -23,8 +23,8 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	
-	float RunningTime;
+	FVector RunningTime;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	float FloatingSpeed;
+	FVector FloatingSpeed;
 };
