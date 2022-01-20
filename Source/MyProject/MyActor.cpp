@@ -14,6 +14,11 @@ AMyActor::AMyActor()
 	DamageTimeInSeconds = 1.0f;
 
 	str = TEXT("Test");
+} 
+
+void AMyActor::CallFromCpp_Implementation()
+{
+	str.Append(TEXT("_Implementation"));
 }
 
 // Called when the game starts or when spawned

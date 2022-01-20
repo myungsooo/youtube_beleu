@@ -27,8 +27,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Damage")
 	FString str;
 
-	UFUNCTION(BlueprintImplementableEvent, Category="Damage")
+	UFUNCTION(BlueprintNativeEvent, Category="Damage")
 	void CallFromCpp();
+	virtual void CallFromCpp_Implementation();
 	
 protected:
 	// Called when the game starts or when spawned
