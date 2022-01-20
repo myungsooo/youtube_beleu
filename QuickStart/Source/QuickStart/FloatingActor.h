@@ -25,4 +25,6 @@ public:
 	
 	float RunningTime;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float FloatingSpeed;
 };
