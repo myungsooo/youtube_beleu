@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"/Users/song/soo/youtube_beleu/QuickStart/Source/QuickStart/QuickStart.Build.cs",
+		"/Users/song/soo/youtube_beleu/QuickStart/Source/QuickStart.Target.cs",
+		"/Users/song/soo/youtube_beleu/QuickStart/Source/QuickStartEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}
