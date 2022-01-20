@@ -23,8 +23,12 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Transient , Category="Damage")
 	float DamagePerSecond;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Damage")
+	FString str;
 
-
+	UFUNCTION(BlueprintImplementableEvent, Category="Damage")
+	void CallFromCpp();
 	
 protected:
 	// Called when the game starts or when spawned

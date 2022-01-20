@@ -12,13 +12,16 @@ AMyActor::AMyActor()
 	// 방법 2
 	TotalDamage = 200;
 	DamageTimeInSeconds = 1.0f;
+
+	str = TEXT("Test");
 }
 
 // Called when the game starts or when spawned
 void AMyActor::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	CallFromCpp();
 }
 
 // Called every frame
