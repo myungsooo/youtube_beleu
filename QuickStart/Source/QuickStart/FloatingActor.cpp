@@ -22,6 +22,15 @@ void AFloatingActor::BeginPlay()
 void AFloatingActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	
+	FVector NewLocation = GetActorLocation(); // 엑터의 현재 위치를 알수 있습니다.
+	float DeltaHeight = (FMath::Sin(RunningTime + DeltaTime) - FMath::Sin(RunningTime));
+	NewLocation.Z += DeltaHeight * 20.0f;
+	RunningTime += DeltaTime;
+	SetActorLocation(NewLocation);
+	
+	
 
+	
 }
 
