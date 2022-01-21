@@ -2667,4 +2667,6 @@
   /Users/song/soo/youtube_beleu/QuickStart/Source/QuickStart/Countdown.cpp \
   /Users/song/soo/youtube_beleu/QuickStart/Intermediate/Build/Mac/x86_64/UE4Editor/Development/QuickStart/Definitions.QuickStart.h \
   /Users/song/soo/youtube_beleu/QuickStart/Source/QuickStart/Countdown.h \
+  /Users/Shared/Epic\ Games/UE_4.27/Engine/Source/Runtime/Engine/Classes/Components/TextRenderComponent.h \
+  /Users/Shared/Epic\ Games/UE_4.27/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Engine/TextRenderComponent.generated.h \
   /Users/song/soo/youtube_beleu/QuickStart/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/QuickStart/Countdown.generated.h

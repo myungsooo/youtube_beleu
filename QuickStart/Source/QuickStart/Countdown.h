@@ -4,7 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Components/TextRenderComponent.h"
 #include "Countdown.generated.h"
+
 
 UCLASS()
 class QUICKSTART_API ACountdown : public AActor
@@ -21,6 +23,16 @@ protected:
 
 public:	
 	// Called every frame
-	virtual void Tick(float DeltaTime) override;
 
+	int32 CountdownTime;
+
+	UTextRenderComponent* CountdownText;
+
+	void UpdateTimerDisplay();
+
+	void AdvanceTimer();
+
+	void CountdownHasFinished();
+
+	FTimerHandle CountdownTimerHandle;
 };
