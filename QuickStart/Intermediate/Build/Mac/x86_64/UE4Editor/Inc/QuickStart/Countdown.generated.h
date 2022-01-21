@@ -14,8 +14,19 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define QUICKSTART_Countdown_generated_h
 
 #define QuickStart_Source_QuickStart_Countdown_h_14_SPARSE_DATA
-#define QuickStart_Source_QuickStart_Countdown_h_14_RPC_WRAPPERS
-#define QuickStart_Source_QuickStart_Countdown_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define QuickStart_Source_QuickStart_Countdown_h_14_RPC_WRAPPERS \
+	virtual void CountdownHasFinished_Implementation(); \
+ \
+	DECLARE_FUNCTION(execCountdownHasFinished);
+
+
+#define QuickStart_Source_QuickStart_Countdown_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execCountdownHasFinished);
+
+
+#define QuickStart_Source_QuickStart_Countdown_h_14_EVENT_PARMS
+#define QuickStart_Source_QuickStart_Countdown_h_14_CALLBACK_WRAPPERS
 #define QuickStart_Source_QuickStart_Countdown_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACountdown(); \
@@ -59,13 +70,17 @@ public: \
 
 
 #define QuickStart_Source_QuickStart_Countdown_h_14_PRIVATE_PROPERTY_OFFSET
-#define QuickStart_Source_QuickStart_Countdown_h_11_PROLOG
+#define QuickStart_Source_QuickStart_Countdown_h_11_PROLOG \
+	QuickStart_Source_QuickStart_Countdown_h_14_EVENT_PARMS
+
+
 #define QuickStart_Source_QuickStart_Countdown_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	QuickStart_Source_QuickStart_Countdown_h_14_PRIVATE_PROPERTY_OFFSET \
 	QuickStart_Source_QuickStart_Countdown_h_14_SPARSE_DATA \
 	QuickStart_Source_QuickStart_Countdown_h_14_RPC_WRAPPERS \
+	QuickStart_Source_QuickStart_Countdown_h_14_CALLBACK_WRAPPERS \
 	QuickStart_Source_QuickStart_Countdown_h_14_INCLASS \
 	QuickStart_Source_QuickStart_Countdown_h_14_STANDARD_CONSTRUCTORS \
 public: \
@@ -78,6 +93,7 @@ public: \
 	QuickStart_Source_QuickStart_Countdown_h_14_PRIVATE_PROPERTY_OFFSET \
 	QuickStart_Source_QuickStart_Countdown_h_14_SPARSE_DATA \
 	QuickStart_Source_QuickStart_Countdown_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	QuickStart_Source_QuickStart_Countdown_h_14_CALLBACK_WRAPPERS \
 	QuickStart_Source_QuickStart_Countdown_h_14_INCLASS_NO_PURE_DECLS \
 	QuickStart_Source_QuickStart_Countdown_h_14_ENHANCED_CONSTRUCTORS \
 private: \

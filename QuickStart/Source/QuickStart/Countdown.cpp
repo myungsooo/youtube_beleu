@@ -47,10 +47,8 @@ void ACountdown::AdvanceTimer()
 	}
 }
 
-void ACountdown::CountdownHasFinished()
+void ACountdown::CountdownHasFinished_Implementation()
 {
 	// 특별 문구로 전환합니다.
 	CountdownText->SetText(TEXT("Go!"));
 }
-
-
