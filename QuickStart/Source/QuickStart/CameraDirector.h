@@ -24,10 +24,16 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UPROPERTY(EditAnywhere)
-	AActor* CameraOne;
+	TArray<AActor*> Cameras;
 
-	UPROPERTY(EditAnywhere)
-	AActor* CameraTwo;
+	int32 NowCameraIndex;
+
+	
+	// UPROPERTY(EditAnywhere)
+	// AActor* CameraOne;
+	//
+	// UPROPERTY(EditAnywhere)
+	// AActor* CameraTwo;
 
 	UPROPERTY(EditAnywhere)
 	float TimeToNextCameraChange;

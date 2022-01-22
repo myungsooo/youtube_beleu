@@ -30,21 +30,31 @@ void ACameraDirector::Tick(float DeltaTime)
 	TimeToNextCameraChange -= DeltaTime;
 	if (TimeToNextCameraChange <= 0.0f)
 	{
+		AActor* NowCamera = Cameras[NowCameraIndex];
+		
 		TimeToNextCameraChange += TimeBetweenCameraChanges;
 
 		APlayerController* controller = UGameplayStatics::GetPlayerController(this, 0);
 		if (controller)
 		{
-			if ((controller->GetViewTarget() != CameraOne) && (CameraOne != nullptr))
+			if ((controller->GetViewTarget() != NowCamera) && (NowCamera != nullptr))
 			{
-				controller->SetViewTarget(CameraOne);
+				controller->SetViewTarget(NowCamera);
 			}
-			else if ((controller->GetViewTarget() != CameraTwo) && (CameraTwo != nullptr))
-			{
-				controller->SetViewTargetWithBlend(CameraTwo, SmoothBlendTime);
+				
+			// if ((controller->GetViewTarget() != CameraOne) && (CameraOne != nullptr))
+			// {
+			// 	controller->SetViewTarget(CameraOne);
+			// }
+			// else if ((controller->GetViewTarget() != CameraTwo) && (CameraTwo != nullptr))
+			// {
+			// 	controller->SetViewTargetWithBlend(CameraTwo, SmoothBlendTime);
 			}
+		NowCameraIndex++;
+		if (NowCameraIndex >= Cameras.Num())
+		{
+			NowCameraIndex = 0;
 		}
 	}
-
 }
 
