@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "QuickStart/Countdown.h"
+#include "QuickStart/2/Countdown.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -48,7 +48,7 @@ void EmptyLinkFunctionForGeneratedCodeCountdown() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACountdown_CountdownHasFinished_Statics::Function_MetaDataParams[] = {
 		{ "Comment", "// \xeb\x94\x94\xec\x9e\x90\xec\x9d\xb4\xeb\x84\x88\xea\xb0\x80 \xeb\xb8\x94\xeb\xa3\xa8\xed\x94\x84\xeb\xa6\xb0\xed\x8a\xb8 \xed\x95\xa8\xec\x88\x98\xec\x9d\x98 \xea\xb8\xb0\xeb\x8a\xa5\xec\x9d\x84 \xec\x88\x98\xec\xa0\x95\xed\x95\xa0\xec\x88\x98 \xec\x9e\x88\xea\xb2\x8c \xed\x95\xb4\xec\xa4\x8d\xeb\x8b\x88\xeb\x8b\xa4.\n" },
-		{ "ModuleRelativePath", "Countdown.h" },
+		{ "ModuleRelativePath", "2/Countdown.h" },
 		{ "ToolTip", "\xeb\x94\x94\xec\x9e\x90\xec\x9d\xb4\xeb\x84\x88\xea\xb0\x80 \xeb\xb8\x94\xeb\xa3\xa8\xed\x94\x84\xeb\xa6\xb0\xed\x8a\xb8 \xed\x95\xa8\xec\x88\x98\xec\x9d\x98 \xea\xb8\xb0\xeb\x8a\xa5\xec\x9d\x84 \xec\x88\x98\xec\xa0\x95\xed\x95\xa0\xec\x88\x98 \xec\x9e\x88\xea\xb2\x8c \xed\x95\xb4\xec\xa4\x8d\xeb\x8b\x88\xeb\x8b\xa4." },
 	};
 #endif
@@ -86,19 +86,19 @@ void EmptyLinkFunctionForGeneratedCodeCountdown() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_QuickStart,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ACountdown_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ACountdown_CountdownHasFinished, "CountdownHasFinished" }, // 2201708230
+		{ &Z_Construct_UFunction_ACountdown_CountdownHasFinished, "CountdownHasFinished" }, // 3548668857
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACountdown_Statics::Class_MetaDataParams[] = {
-		{ "IncludePath", "Countdown.h" },
-		{ "ModuleRelativePath", "Countdown.h" },
+		{ "IncludePath", "2/Countdown.h" },
+		{ "ModuleRelativePath", "2/Countdown.h" },
 	};
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACountdown_Statics::NewProp_CountdownTime_MetaData[] = {
 		{ "Category", "Countdown" },
 		{ "Comment", "// How long, in Seconds, the countdown will run\n" },
-		{ "ModuleRelativePath", "Countdown.h" },
+		{ "ModuleRelativePath", "2/Countdown.h" },
 		{ "ToolTip", "How long, in Seconds, the countdown will run" },
 	};
 #endif
@@ -133,7 +133,7 @@ void EmptyLinkFunctionForGeneratedCodeCountdown() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACountdown, 2969234194);
+	IMPLEMENT_CLASS(ACountdown, 968373890);
 	template<> QUICKSTART_API UClass* StaticClass<ACountdown>()
 	{
 		return ACountdown::StaticClass();

@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "QuickStart/CameraDirector.h"
+#include "QuickStart/3/CameraDirector.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -66,7 +66,7 @@ static struct FScriptStruct_QuickStart_StaticRegisterNativesFChangeCameraData
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FChangeCameraData_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-		{ "ModuleRelativePath", "CameraDirector.h" },
+		{ "ModuleRelativePath", "3/CameraDirector.h" },
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FChangeCameraData_Statics::NewStructOps()
@@ -76,21 +76,21 @@ static struct FScriptStruct_QuickStart_StaticRegisterNativesFChangeCameraData
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FChangeCameraData_Statics::NewProp_Camera_MetaData[] = {
 		{ "Category", "ChangeCameraData" },
-		{ "ModuleRelativePath", "CameraDirector.h" },
+		{ "ModuleRelativePath", "3/CameraDirector.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FChangeCameraData_Statics::NewProp_Camera = { "Camera", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FChangeCameraData, Camera), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FChangeCameraData_Statics::NewProp_Camera_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FChangeCameraData_Statics::NewProp_Camera_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FChangeCameraData_Statics::NewProp_TimeBetweenCameraChanges_MetaData[] = {
 		{ "Category", "ChangeCameraData" },
-		{ "ModuleRelativePath", "CameraDirector.h" },
+		{ "ModuleRelativePath", "3/CameraDirector.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FChangeCameraData_Statics::NewProp_TimeBetweenCameraChanges = { "TimeBetweenCameraChanges", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FChangeCameraData, TimeBetweenCameraChanges), METADATA_PARAMS(Z_Construct_UScriptStruct_FChangeCameraData_Statics::NewProp_TimeBetweenCameraChanges_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FChangeCameraData_Statics::NewProp_TimeBetweenCameraChanges_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FChangeCameraData_Statics::NewProp_SmoothBlendTime_MetaData[] = {
 		{ "Category", "ChangeCameraData" },
-		{ "ModuleRelativePath", "CameraDirector.h" },
+		{ "ModuleRelativePath", "3/CameraDirector.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FChangeCameraData_Statics::NewProp_SmoothBlendTime = { "SmoothBlendTime", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FChangeCameraData, SmoothBlendTime), METADATA_PARAMS(Z_Construct_UScriptStruct_FChangeCameraData_Statics::NewProp_SmoothBlendTime_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FChangeCameraData_Statics::NewProp_SmoothBlendTime_MetaData)) };
@@ -127,7 +127,7 @@ static struct FScriptStruct_QuickStart_StaticRegisterNativesFChangeCameraData
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FChangeCameraData_Hash() { return 949733072U; }
+	uint32 Get_Z_Construct_UScriptStruct_FChangeCameraData_Hash() { return 1756265596U; }
 	void ACameraDirector::StaticRegisterNativesACameraDirector()
 	{
 	}
@@ -160,15 +160,15 @@ static struct FScriptStruct_QuickStart_StaticRegisterNativesFChangeCameraData
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACameraDirector_Statics::Class_MetaDataParams[] = {
-		{ "IncludePath", "CameraDirector.h" },
-		{ "ModuleRelativePath", "CameraDirector.h" },
+		{ "IncludePath", "3/CameraDirector.h" },
+		{ "ModuleRelativePath", "3/CameraDirector.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ACameraDirector_Statics::NewProp_Cameras_Inner = { "Cameras", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FChangeCameraData, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACameraDirector_Statics::NewProp_Cameras_MetaData[] = {
 		{ "Category", "CameraDirector" },
-		{ "ModuleRelativePath", "CameraDirector.h" },
+		{ "ModuleRelativePath", "3/CameraDirector.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ACameraDirector_Statics::NewProp_Cameras = { "Cameras", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACameraDirector, Cameras), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_ACameraDirector_Statics::NewProp_Cameras_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACameraDirector_Statics::NewProp_Cameras_MetaData)) };
@@ -176,7 +176,7 @@ static struct FScriptStruct_QuickStart_StaticRegisterNativesFChangeCameraData
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACameraDirector_Statics::NewProp_TimeToNextCameraChange_MetaData[] = {
 		{ "Category", "CameraDirector" },
 		{ "Comment", "// UPROPERTY(EditAnywhere)\n// AActor* CameraOne;\n//\n// UPROPERTY(EditAnywhere)\n// AActor* CameraTwo;\n" },
-		{ "ModuleRelativePath", "CameraDirector.h" },
+		{ "ModuleRelativePath", "3/CameraDirector.h" },
 		{ "ToolTip", "UPROPERTY(EditAnywhere)\nAActor* CameraOne;\n\nUPROPERTY(EditAnywhere)\nAActor* CameraTwo;" },
 	};
 #endif
@@ -213,7 +213,7 @@ static struct FScriptStruct_QuickStart_StaticRegisterNativesFChangeCameraData
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACameraDirector, 2070025664);
+	IMPLEMENT_CLASS(ACameraDirector, 3095413097);
 	template<> QUICKSTART_API UClass* StaticClass<ACameraDirector>()
 	{
 		return ACameraDirector::StaticClass();

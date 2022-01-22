@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "QuickStart/Fire.h"
+#include "QuickStart/2/Fire.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -43,7 +43,7 @@ void EmptyLinkFunctionForGeneratedCodeFire() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFire_OffFire_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "Fire.h" },
+		{ "ModuleRelativePath", "2/Fire.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFire_OffFire_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFire, nullptr, "OffFire", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFire_OffFire_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AFire_OffFire_Statics::Function_MetaDataParams)) };
@@ -84,26 +84,26 @@ void EmptyLinkFunctionForGeneratedCodeFire() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_QuickStart,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AFire_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AFire_OffFire, "OffFire" }, // 1424931772
+		{ &Z_Construct_UFunction_AFire_OffFire, "OffFire" }, // 4198441525
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFire_Statics::Class_MetaDataParams[] = {
-		{ "IncludePath", "Fire.h" },
-		{ "ModuleRelativePath", "Fire.h" },
+		{ "IncludePath", "2/Fire.h" },
+		{ "ModuleRelativePath", "2/Fire.h" },
 	};
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFire_Statics::NewProp_FireParticle_MetaData[] = {
 		{ "Category", "Fire" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Fire.h" },
+		{ "ModuleRelativePath", "2/Fire.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFire_Statics::NewProp_FireParticle = { "FireParticle", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFire, FireParticle), Z_Construct_UClass_UParticleSystemComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFire_Statics::NewProp_FireParticle_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFire_Statics::NewProp_FireParticle_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFire_Statics::NewProp_FireTime_MetaData[] = {
 		{ "Category", "Fire" },
-		{ "ModuleRelativePath", "Fire.h" },
+		{ "ModuleRelativePath", "2/Fire.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FInt8PropertyParams Z_Construct_UClass_AFire_Statics::NewProp_FireTime = { "FireTime", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int8, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFire, FireTime), METADATA_PARAMS(Z_Construct_UClass_AFire_Statics::NewProp_FireTime_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFire_Statics::NewProp_FireTime_MetaData)) };
@@ -138,7 +138,7 @@ void EmptyLinkFunctionForGeneratedCodeFire() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFire, 1992951786);
+	IMPLEMENT_CLASS(AFire, 2823621583);
 	template<> QUICKSTART_API UClass* StaticClass<AFire>()
 	{
 		return AFire::StaticClass();

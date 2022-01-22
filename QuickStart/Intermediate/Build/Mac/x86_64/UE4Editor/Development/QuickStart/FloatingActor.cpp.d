@@ -2664,7 +2664,7 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/ctime \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/ratio \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/climits \
-  /Users/song/soo/youtube_beleu/QuickStart/Source/QuickStart/FloatingActor.cpp \
+  /Users/song/soo/youtube_beleu/QuickStart/Source/QuickStart/1/FloatingActor.cpp \
   /Users/song/soo/youtube_beleu/QuickStart/Intermediate/Build/Mac/x86_64/UE4Editor/Development/QuickStart/Definitions.QuickStart.h \
-  /Users/song/soo/youtube_beleu/QuickStart/Source/QuickStart/FloatingActor.h \
+  /Users/song/soo/youtube_beleu/QuickStart/Source/QuickStart/1/FloatingActor.h \
   /Users/song/soo/youtube_beleu/QuickStart/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/QuickStart/FloatingActor.generated.h

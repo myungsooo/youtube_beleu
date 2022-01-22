@@ -2664,9 +2664,9 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/ctime \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/ratio \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/climits \
-  /Users/song/soo/youtube_beleu/QuickStart/Source/QuickStart/CameraDirector.cpp \
+  /Users/song/soo/youtube_beleu/QuickStart/Source/QuickStart/3/CameraDirector.cpp \
   /Users/song/soo/youtube_beleu/QuickStart/Intermediate/Build/Mac/x86_64/UE4Editor/Development/QuickStart/Definitions.QuickStart.h \
-  /Users/song/soo/youtube_beleu/QuickStart/Source/QuickStart/CameraDirector.h \
+  /Users/song/soo/youtube_beleu/QuickStart/Source/QuickStart/3/CameraDirector.h \
   /Users/song/soo/youtube_beleu/QuickStart/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/QuickStart/CameraDirector.generated.h \
   /Users/Shared/Epic\ Games/UE_4.27/Engine/Source/Runtime/Engine/Classes/Kismet/GameplayStatics.h \
   /Users/Shared/Epic\ Games/UE_4.27/Engine/Source/Runtime/Engine/Classes/Kismet/KismetSystemLibrary.h \

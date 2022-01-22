@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "QuickStart/MovingActor.h"
+#include "QuickStart/3/MovingActor.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -40,8 +40,8 @@ void EmptyLinkFunctionForGeneratedCodeMovingActor() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovingActor_Statics::Class_MetaDataParams[] = {
-		{ "IncludePath", "MovingActor.h" },
-		{ "ModuleRelativePath", "MovingActor.h" },
+		{ "IncludePath", "3/MovingActor.h" },
+		{ "ModuleRelativePath", "3/MovingActor.h" },
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AMovingActor_Statics::StaticCppClassTypeInfo = {
@@ -71,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeMovingActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMovingActor, 2984691947);
+	IMPLEMENT_CLASS(AMovingActor, 3039819580);
 	template<> QUICKSTART_API UClass* StaticClass<AMovingActor>()
 	{
 		return AMovingActor::StaticClass();

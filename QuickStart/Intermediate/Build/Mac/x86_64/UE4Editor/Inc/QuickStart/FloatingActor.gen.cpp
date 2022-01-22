@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "QuickStart/FloatingActor.h"
+#include "QuickStart/1/FloatingActor.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -46,14 +46,14 @@ void EmptyLinkFunctionForGeneratedCodeFloatingActor() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFloatingActor_Statics::Class_MetaDataParams[] = {
-		{ "IncludePath", "FloatingActor.h" },
-		{ "ModuleRelativePath", "FloatingActor.h" },
+		{ "IncludePath", "1/FloatingActor.h" },
+		{ "ModuleRelativePath", "1/FloatingActor.h" },
 	};
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFloatingActor_Statics::NewProp_FloatingSpeed_MetaData[] = {
 		{ "Category", "FloatingActor" },
-		{ "ModuleRelativePath", "FloatingActor.h" },
+		{ "ModuleRelativePath", "1/FloatingActor.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AFloatingActor_Statics::NewProp_FloatingSpeed = { "FloatingSpeed", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFloatingActor, FloatingSpeed), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_AFloatingActor_Statics::NewProp_FloatingSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFloatingActor_Statics::NewProp_FloatingSpeed_MetaData)) };
@@ -87,7 +87,7 @@ void EmptyLinkFunctionForGeneratedCodeFloatingActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFloatingActor, 2306026569);
+	IMPLEMENT_CLASS(AFloatingActor, 3181566175);
 	template<> QUICKSTART_API UClass* StaticClass<AFloatingActor>()
 	{
 		return AFloatingActor::StaticClass();
