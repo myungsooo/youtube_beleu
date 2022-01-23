@@ -36,5 +36,6 @@ public:
 
 	FVector CurrentVelocity;
 	bool bGrowing;
-	
+
+	float InputTime;
 };
