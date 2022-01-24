@@ -8,14 +8,23 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UUserWidget;
 #ifdef QUICKSTART_QuickStartGameModeBase_generated_h
 #error "QuickStartGameModeBase.generated.h already included, missing '#pragma once' in QuickStartGameModeBase.h"
 #endif
 #define QUICKSTART_QuickStartGameModeBase_generated_h
 
 #define QuickStart_Source_QuickStart_QuickStartGameModeBase_h_15_SPARSE_DATA
-#define QuickStart_Source_QuickStart_QuickStartGameModeBase_h_15_RPC_WRAPPERS
-#define QuickStart_Source_QuickStart_QuickStartGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define QuickStart_Source_QuickStart_QuickStartGameModeBase_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execChangeMenuWidget);
+
+
+#define QuickStart_Source_QuickStart_QuickStartGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execChangeMenuWidget);
+
+
 #define QuickStart_Source_QuickStart_QuickStartGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAQuickStartGameModeBase(); \
@@ -60,7 +69,11 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AQuickStartGameModeBase)
 
 
-#define QuickStart_Source_QuickStart_QuickStartGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET
+#define QuickStart_Source_QuickStart_QuickStartGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__StartingWidgetClass() { return STRUCT_OFFSET(AQuickStartGameModeBase, StartingWidgetClass); } \
+	FORCEINLINE static uint32 __PPO__CurrentWidget() { return STRUCT_OFFSET(AQuickStartGameModeBase, CurrentWidget); }
+
+
 #define QuickStart_Source_QuickStart_QuickStartGameModeBase_h_12_PROLOG
 #define QuickStart_Source_QuickStart_QuickStartGameModeBase_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
