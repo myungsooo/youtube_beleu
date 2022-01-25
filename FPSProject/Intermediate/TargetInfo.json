@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FPSProject",
+			"Path": "/Users/song/soo/youtube_beleu/FPSProject/Source/FPSProject.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FPSProjectEditor",
+			"Path": "/Users/song/soo/youtube_beleu/FPSProject/Source/FPSProjectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
