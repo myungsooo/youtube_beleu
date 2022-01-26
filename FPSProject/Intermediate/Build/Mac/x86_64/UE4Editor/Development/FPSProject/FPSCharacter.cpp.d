@@ -2675,8 +2675,16 @@
   /Users/Shared/Epic\ Games/UE_4.27/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Engine/Character.generated.h \
   /Users/Shared/Epic\ Games/UE_4.27/Engine/Source/Runtime/Engine/Classes/Camera/CameraComponent.h \
   /Users/Shared/Epic\ Games/UE_4.27/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Engine/CameraComponent.generated.h \
-  /Users/song/soo/youtube_beleu/FPSProject/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/FPSProject/FPSCharacter.generated.h \
-  /Users/Shared/Epic\ Games/UE_4.27/Engine/Source/Runtime/Engine/Classes/Components/CapsuleComponent.h \
+  /Users/song/soo/youtube_beleu/FPSProject/Source/FPSProject/FPSProjectile.h \
+  /Users/Shared/Epic\ Games/UE_4.27/Engine/Source/Runtime/Engine/Classes/Components/SphereComponent.h \
   /Users/Shared/Epic\ Games/UE_4.27/Engine/Source/Runtime/Engine/Classes/Components/ShapeComponent.h \
   /Users/Shared/Epic\ Games/UE_4.27/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Engine/ShapeComponent.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.27/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Engine/SphereComponent.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.27/Engine/Source/Runtime/Engine/Classes/GameFramework/ProjectileMovementComponent.h \
+  /Users/Shared/Epic\ Games/UE_4.27/Engine/Source/Runtime/Engine/Classes/GameFramework/MovementComponent.h \
+  /Users/Shared/Epic\ Games/UE_4.27/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Engine/MovementComponent.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.27/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Engine/ProjectileMovementComponent.generated.h \
+  /Users/song/soo/youtube_beleu/FPSProject/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/FPSProject/FPSProjectile.generated.h \
+  /Users/song/soo/youtube_beleu/FPSProject/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/FPSProject/FPSCharacter.generated.h \
+  /Users/Shared/Epic\ Games/UE_4.27/Engine/Source/Runtime/Engine/Classes/Components/CapsuleComponent.h \
   /Users/Shared/Epic\ Games/UE_4.27/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Engine/CapsuleComponent.generated.h
