@@ -2,13 +2,28 @@
 
 
 #include "FPSCharacter.h"
+#include "Components/CapsuleComponent.h"
+
 
 // Sets default values
 AFPSCharacter::AFPSCharacter()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+ 
+	FPSCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
+	FPSCameraComponent->SetupAttachment(GetCapsuleComponent());
+	FPSCameraComponent->SetRelativeLocation(FVector(0.0f, 0.0f, 50.0 + BaseEyeHeight));
+	FPSCameraComponent->bUsePawnControlRotation = true;
 
+	FPSMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("FirstPersonMesh"));
+	FPSMesh->SetOnlyOwnerSee(true);
+	FPSMesh->SetupAttachment(FPSCameraComponent);
+	FPSMesh->bCastDynamicShadow = false;
+	FPSMesh->CastShadow = false;
+
+	// 소유자는 3인칭 Mesh를 볼수 없게한다
+	GetMesh()->SetOwnerNoSee(true);
 }
 
 // Called when the game starts or when spawned
